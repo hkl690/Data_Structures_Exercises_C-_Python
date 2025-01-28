@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Structures_Exercises_C#_Python", "Data_Structures_Exercises_C#_Python\Data_Structures_Exercises_C#_Python.csproj", "{CEBFAA4F-5D4B-4EA1-8179-049C65FDD319}"
 EndProject

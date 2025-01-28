@@ -8,9 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="2_Queue\C#_Queue\" />
-    <Folder Include="2_Queue\Python_Queue\" />
-  </ItemGroup>
-
 </Project>
