@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="1_List\Python_List\" />
     <Folder Include="2_Queue\" />
   </ItemGroup>
 
