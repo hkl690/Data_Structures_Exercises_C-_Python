@@ -6,7 +6,7 @@ namespace Data_Structures_Exercises
     {
         static void Main(string[] args)
         {
-            ListManager listExercise = new ListManager();
+            ListManager listManager = new ListManager();
             string UserInput1;
             int Option = 0;
             bool IsRunning = true;
@@ -37,33 +37,33 @@ namespace Data_Structures_Exercises
                     switch (Option)
                     {
                         case 1:
-                            listExercise.AddToEnd();
-                            listExercise.DisplayList();
+                            listManager.AddToEnd();
+                            listManager.DisplayList();
                             break;
                         case 2:
                             Console.WriteLine("Enter the index where you want to insert the element: ");
                             int InsertIndex = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("Enter the value you want to insert: ");
                             int InsertValue = Convert.ToInt32(Console.ReadLine());
-                            listExercise.InsertElement(InsertIndex, InsertValue);
-                            listExercise.DisplayList();
+                            listManager.InsertElement(InsertIndex, InsertValue);
+                            listManager.DisplayList();
                             break;
                         case 3:
                             Console.WriteLine("Enter the index of the element you want to delete: ");
                             int DeleteIndex = Convert.ToInt32(Console.ReadLine());
-                            listExercise.DeleteElement(DeleteIndex);
-                            listExercise.DisplayList();
+                            listManager.DeleteElement(DeleteIndex);
+                            listManager.DisplayList();
                             break;
                         case 4:
-                            listExercise.DisplayList();
+                            listManager.DisplayList();
                             break;
                         case 5:
-                            listExercise.DisplayCount();
-                            listExercise.DisplayList();
+                            listManager.DisplayCount();
+                            listManager.DisplayList();
                             break;
                         case 6:
-                            listExercise.ClearList();
-                            listExercise.DisplayList();
+                            listManager.ClearList();
+                            listManager.DisplayList();
                             break;
                         case 7:
                             IsRunning = false;
